@@ -160,8 +160,29 @@ header .logo a{
 }
 
 
+.grid-container {
+    display: grid;
+    place-items: center; 
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #f3f3f3; 
+  }
+  
+.video-container {
+    width: 100%; 
+    max-width: 860px;
 
-
+  }
+.grid-container a{ 
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: black;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+    width: fit-content;
+}
 
 
 footer {
